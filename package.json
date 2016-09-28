@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opbeat/react-babel-displayname.git"
+    "url": "git+https://github.com/opbeat/babel-plugin-add-react-displayname.git"
   },
   "author": "Ron Cohen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/opbeat/react-babel-displayname/issues"
+    "url": "https://github.com/opbeat/babel-plugin-add-react-displayname/issues"
   },
-  "homepage": "https://github.com/opbeat/react-babel-displayname#readme"
+  "homepage": "https://github.com/opbeat/babel-plugin-add-react-displayname#readme"
 }
