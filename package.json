@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-add-react-displayname",
+  "version": "0.0.1",
+  "description": "Automatically add displayName to all your components",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-helper-plugin-test-runner": "^6.8.0",
+    "mocha": "^3.0.2",
+    "standard": "^8.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opbeat/react-babel-displayname.git"
+  },
+  "author": "Ron Cohen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opbeat/react-babel-displayname/issues"
+  },
+  "homepage": "https://github.com/opbeat/react-babel-displayname#readme"
+}
