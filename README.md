@@ -16,3 +16,7 @@ Simply add `babel-plugin-add-react-displayname` to your `.babelrc` file:
     "plugins": ["babel-plugin-add-react-displayname"]
 }
 ```
+
+## Testing
+
+`npm test`
