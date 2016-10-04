@@ -9,11 +9,11 @@ Babel already does this for `React.createClass` style components, this adds supp
 
 
 ## Installation
-Simply add `babel-plugin-add-react-displayname` to your `.babelrc` file:
+Simply add `add-react-displayname` to your `.babelrc` file:
 
 ```json
 {
-    "plugins": ["babel-plugin-add-react-displayname"]
+    "plugins": ["add-react-displayname"]
 }
 ```
 
