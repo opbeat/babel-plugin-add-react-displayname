@@ -66,6 +66,7 @@ function shouldSetDisplayNameForFuncExpr(path, knownComponents) {
   // Parent must be either 'AssignmentExpression' or 'VariableDeclarator' or 'CallExpression' with a parent of 'VariableDeclarator'
   var id
   if (path.parentPath.node.type === 'AssignmentExpression' &&
+      path.parentPath.node.left.type !== 'MemberExpression' && // skip static members 
       path.parentPath.parentPath.node.type == 'ExpressionStatement' &&
       path.parentPath.parentPath.parentPath.node.type == 'Program') {
     id = path.parentPath.node.left

@@ -31,7 +31,7 @@ function readFile(filename) {
 
 function transformFile(filename) {
   return babel.transformFileSync(filename, {
-    presets: ['react'],
+    presets: ['react', 'stage-1'],
     plugins: [
       [pluginPath, {'knownComponents': ['Component5a', 'Component5b', 'Component5c']}]
     ]

@@ -20,4 +20,16 @@ export class Component3c extends Component {
     return React.createElement('div', null);
   }
 }
+
 Component3c.displayName = 'Component3c';
+class Component3d extends Component {
+  render() {
+    return React.createElement('div', null);
+  }
+}
+
+Component3d.get = () => {
+  return React.createElement('div', null);
+};
+
+Component3d.displayName = 'Component3d';

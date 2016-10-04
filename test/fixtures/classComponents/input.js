@@ -19,3 +19,12 @@ export class Component3c extends Component {
     return <div></div>
   }
 }
+
+class Component3d extends Component {
+  static get = () => {
+    return <div />;
+  }
+  render() {
+    return <div />
+  }
+}
