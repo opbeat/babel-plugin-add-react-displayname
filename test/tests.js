@@ -8,8 +8,6 @@ var fixturesDir = path.join(__dirname, "fixtures")
 
 
 var pluginPath = path.join(__dirname, '../../babel-plugin-add-react-displayname')
-console.log(fs.readdirSync(fixturesDir))
-
 var assert = require('assert');
 describe('add-react-displayname transform', function() {
 
