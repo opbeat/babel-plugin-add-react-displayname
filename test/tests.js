@@ -31,7 +31,8 @@ function transformFile(filename) {
   return babel.transformFileSync(filename, {
     presets: ['react', 'stage-1'],
     plugins: [
-      [pluginPath, {'knownComponents': ['Component5a', 'Component5b', 'Component5c']}]
+      [pluginPath, {'knownComponents': ['Component5a', 'Component5b', 'Component5c']}],
+      'transform-decorators-legacy',
     ]
   }).code
 }

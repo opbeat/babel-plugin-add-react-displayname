@@ -9,11 +9,12 @@ function f2({ value }) {
   return "somestring";
 }
 
-class f3 {
+let f3 = class f3 {
   method1() {
     return "whatever";
   }
-}
+};
+
 
 var f4 = React.createElement(
   "div",
